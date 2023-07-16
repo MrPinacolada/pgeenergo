@@ -35,7 +35,7 @@
             </section>
             <Divider layout="vertical" />
             <section class="userdata">
-              <Avatar image="publick/icons8-user.svg" class="mr-2" size="xlarge" shape="circle" />
+              <Avatar image="../assets/icons8-user.svg" class="mr-2" size="xlarge" shape="circle" />
               <span>{{ slotProps.data.user }}</span>
             </section>
           </div>
