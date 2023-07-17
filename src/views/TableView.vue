@@ -51,6 +51,7 @@ const onRowSelect = async (event: any) => {
   while (!confRes.value) {
     await new Promise((resolve) => setTimeout(resolve, 100))
   }
+  confRes.value = null
   showConf.value = false
 
   const selectedRow = event?.data

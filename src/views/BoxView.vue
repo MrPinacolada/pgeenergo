@@ -83,6 +83,7 @@ const checkNotes = async (
   while (!confRes.value) {
     await new Promise((resolve) => setTimeout(resolve, 100))
   }
+  confRes.value = null
   showConf.value = false
   checkedUnchecked(date, imp, eq, message, user, checked)
 }

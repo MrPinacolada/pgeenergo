@@ -11,11 +11,10 @@
         :options="imps"
         optionLabel="name"
         placeholder="Выберете степень важности:"
-        class="w-full md:w-14rem"
       />
       <label>Укажите оборудования для работы: </label>
       <Textarea v-model="valueEQ" autoResize rows="3" cols="30" />
-      <label>Введите ваше сообщени: </label>
+      <label>Введите ваше сообщение: </label>
       <Textarea v-model="valueMessage" autoResize rows="5" cols="30" />
       <label>Укажите ответственного: </label>
       <InputText type="text" v-model="valueUser" />
